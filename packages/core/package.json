@@ -1,0 +1,27 @@
+{
+  "name": "@tgu/core",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "qingfu.wu <642935965@qq.com>",
+  "homepage": "https://github.com/tguzi/tgu-ui/tree/master/packages/core#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tguzi/tgu-ui.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tguzi/tgu-ui/issues"
+  }
+}

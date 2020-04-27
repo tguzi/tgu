@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ESNext",
+    "lib": [
+      "DOM",
+      "ES5",
+      "ES6",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react",
+    "noEmit": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "packages/**/*/lib/",
+    "*.ts+(|x)",
+    "**/*.ts+(|x)"
+  ],
+  "exclude": [
+    "node_modules",
+    "*.d.ts",
+    "*.spec.ts"
+  ]
+}
