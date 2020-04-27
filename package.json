@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "private": false,
   "cjs": "dist/index.js",
   "es": "es/index.js",
   "scripts": {
