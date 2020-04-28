@@ -57,7 +57,7 @@ export default {
       runtimeHelpers: true
     }), // babel 插件, 配置文件 .babelrc
     commonjs(), // 将CommonJS模块转换为ES6来兼容rollup
-    clear({ targets: ['./dist', './es'] }), // 清理打包文件
+    clear({ targets: ['./dist', './es', '.docz', ''] }), // 清理打包文件
     typescript({
       tsconfig: '../../tsconfig.json'
     }), // ts 扩展
