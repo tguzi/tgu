@@ -4,7 +4,7 @@ import clear from 'rollup-plugin-clear'
 import json from 'rollup-plugin-json'
 import commonjs from 'rollup-plugin-commonjs'
 import typescript from '@rollup/plugin-typescript'
-import { eslint } from 'rollup-plugin-eslint'
+// import { eslint } from 'rollup-plugin-eslint'
 import { terser } from 'rollup-plugin-terser'
 import pkg from './package.json'
 
@@ -23,11 +23,13 @@ export default {
       file: pkg.cjs, // 出口
       format: 'cjs', // 打包成commonjs模块
       sourcemap: !isDev, // 打包映射
+      dir: './dist',
     },
     {
       file: pkg.es,
       format: 'es',
       sourcemap: !isDev,
+      dir: './',
     }
   ],
   external: id => pkgdependencies.includes(id), // 排除不打包第三方包
@@ -36,10 +38,21 @@ export default {
     resolve({
       extensions: ['.js', '.jsx', '.ts', '.tsx']
     }), // 加载node_modules中的第三方模块
-    eslint({
-      include: ['packages/**/*.ts'],
-      exclude: ['node_modules/**', 'dist/**', 'es/**', '*.js'],
-    }), // eslint - NOTE: 这样配置其实并没有达到效果，还不知道是为什么，持续跟进吧
+    // eslint({
+    //   // fix: true,
+    //   includes: [
+    //     '**/*.ts',
+    //     '**/*.tsx',
+    //   ],
+    //   exclude: [
+    //     '**/*.js',
+    //     'node_modules/**',
+    //     'dist/',
+    //     'es/',
+    //     '**/*.js',
+    //     'packages/'
+    //   ],
+    // }), // eslint - NOTE: 这样配置其实并没有达到效果，还不知道是为什么，持续跟进吧
     babel({
       // NOTE: 似乎还没用到精髓
       exclude: 'node_modules/**', // 只编译源代码

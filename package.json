@@ -8,6 +8,17 @@
     "build": "lerna exec -- rollup --config ../../rollup.config.js",
     "dev": "lerna exec -- rollup --config ../../rollup.config.js -w"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged & jest -u"
+    }
+  },
+  "lint-staged": {
+    "*.{.ts,.js,.tsx}": [
+      "eslint",
+      "git add"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tguzi/tgu-ui.git"
@@ -54,8 +65,10 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
+    "husky": "^4.2.5",
     "jest": "^25.4.0",
     "lerna": "^3.20.2",
+    "lint-staged": "^10.2.0",
     "react": "^16.13.1",
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "^16.13.1",

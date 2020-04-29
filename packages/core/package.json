@@ -12,7 +12,8 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist",
+    "es"
   ],
   "repository": {
     "type": "git",
