@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":["../lib/index.ts"],"sourcesContent":["console.log('qqq')"],"names":["console","log"],"mappings":"aAAAA,QAAQC,IAAI"}
+{"version":3,"file":"index.js","sources":["../lib/index.ts"],"sourcesContent":["class TguCore {\n}\n\nconsole.log(112)"],"names":["console","log"],"mappings":"aAGAA,QAAQC,IAAI"}

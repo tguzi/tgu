@@ -1,2 +1,2 @@
-console.log("qqq");
+console.log(112);
 //# sourceMappingURL=index.js.map

@@ -11,5 +11,3 @@ export function paowuxian(x: number) {
   }
   return x * x * a + b * x + c
 }
-
-const a = ''

@@ -11,7 +11,7 @@ const Header: React.SFC<IProps> = ({
 )
 
 Header.defaultProps = {
-  aaa: 1
+  aaa: 2
 }
 
 export default Header

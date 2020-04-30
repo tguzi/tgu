@@ -6,7 +6,7 @@
     "docz": "docz dev --typescript",
     "test": "jest --coverage --verbose -u",
     "build": "lerna exec -- rollup --config ../../rollup.config.js",
-    "dev": "lerna exec -- rollup --config ../../rollup.config.js -w"
+    "start": "lerna exec -- rollup --config ../../rollup.config.js -w"
   },
   "husky": {
     "hooks": {
@@ -69,6 +69,7 @@
     "jest": "^25.4.0",
     "lerna": "^3.20.2",
     "lint-staged": "^10.2.0",
+    "mockjs": "^1.1.0",
     "react": "^16.13.1",
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "^16.13.1",

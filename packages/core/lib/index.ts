@@ -1,1 +1,4 @@
-console.log('qqq')
+class TguCore {
+}
+
+console.log(112)
