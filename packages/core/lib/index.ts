@@ -1,4 +1,1 @@
-class TguCore {
-}
-
-console.log(112)
+// import hoos from 'perf_hooks'
