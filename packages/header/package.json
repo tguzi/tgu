@@ -1,6 +1,6 @@
 {
   "name": "@tgu/header",
-  "version": "0.0.5",
+  "version": "0.0.6-alpha.0",
   "description": "> TODO: description",
   "author": "qingfu.wu <642935965@qq.com>",
   "homepage": "https://github.com/tguzi/tgu-ui/tree/master/packages/header#readme",
@@ -24,7 +24,5 @@
   "bugs": {
     "url": "https://github.com/tguzi/tgu-ui/issues"
   },
-  "gitHead": "47e53c82dd7e50ec663813afe030ee6e7bcff2a8",
-  "dependencies": {
-  }
+  "gitHead": "47e53c82dd7e50ec663813afe030ee6e7bcff2a8"
 }

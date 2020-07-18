@@ -1,6 +1,6 @@
 {
   "name": "core",
-  "version": "0.0.5",
+  "version": "0.0.6-alpha.0",
   "description": "> TODO: description",
   "author": "qingfu.wu <642935965@qq.com>",
   "homepage": "https://github.com/tguzi/tgu-ui/tree/master/packages/core#readme",
@@ -24,7 +24,7 @@
     "url": "https://github.com/tguzi/tgu-ui/issues"
   },
   "dependencies": {
-    "@tgu/header": "^0.0.5",
-    "hooks": "^0.0.5"
+    "@tgu/header": "^0.0.6-alpha.0",
+    "hooks": "^0.0.6-alpha.0"
   }
 }
