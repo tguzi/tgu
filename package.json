@@ -15,8 +15,7 @@
   },
   "lint-staged": {
     "*.{.ts,.js,.tsx}": [
-      "eslint",
-      "git add"
+      "eslint"
     ]
   },
   "repository": {
