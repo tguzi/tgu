@@ -7,8 +7,8 @@ interface IProps {
 const Header: React.SFC<IProps> = ({
   aaa
 }) => (
-  <div>Hello Tgu { aaa }</div>
-)
+    <div>Hello Tgu { aaa}</div>
+  )
 
 Header.defaultProps = {
   aaa: 2
