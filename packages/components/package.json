@@ -1,11 +1,11 @@
 {
   "name": "@tgu/components",
   "version": "0.0.7",
-  "description": "> TODO: description",
+  "description": "description",
   "author": "qingfu.wu <642935965@qq.com>",
   "homepage": "https://github.com/tguzi/tgu-ui/tree/master/packages/components#readme",
   "license": "ISC",
-  "main": "lib/components.js",
+  "main": "dist/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

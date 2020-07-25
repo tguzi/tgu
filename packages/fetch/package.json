@@ -8,7 +8,7 @@
   "author": "火六 <1512751361@qq.com>",
   "homepage": "https://github.com/tguzi/tgu-ui/tree/master/packages/fetch#readme",
   "license": "ISC",
-  "main": "lib/fetch.js",
+  "main": "dist/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
