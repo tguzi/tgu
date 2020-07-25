@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/tguzi/tgu-ui/issues"
   },
-  "gitHead": "6a9934a8d8cce90de00cb1f47f4283a4ede078b0"
+  "gitHead": "6a9934a8d8cce90de00cb1f47f4283a4ede078b0",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
 }
