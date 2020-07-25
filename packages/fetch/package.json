@@ -1,0 +1,32 @@
+{
+  "name": "@tgu/fetch",
+  "version": "0.0.7",
+  "description": "fetch api",
+  "keywords": [
+    "fetch"
+  ],
+  "author": "火六 <1512751361@qq.com>",
+  "homepage": "https://github.com/tguzi/tgu-ui/tree/master/packages/fetch#readme",
+  "license": "ISC",
+  "main": "lib/fetch.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tguzi/tgu.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tguzi/tgu/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
+}
