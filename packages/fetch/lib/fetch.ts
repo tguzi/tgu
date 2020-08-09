@@ -165,10 +165,10 @@ export default class FetchUtil {
         } else if (responseType === ResponseType.formData) {
           return response.formData()
         }
-        return response.json()
+        return response
       }
       const error: any = new Error()
-      error.res = response.json()
+      error.res = response
       throw error
     })
   }
