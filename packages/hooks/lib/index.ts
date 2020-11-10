@@ -1,4 +1,4 @@
-export * as useStorage from './useStorage/index'
+export * as useStorage from './storage/index'
 export { default as useUpdateEffect } from './useUpdateEffect/index'
 
 export const testFn = () => {

@@ -1,6 +1,0 @@
----
-name: Hooks
----
-
-
-## Basic usage

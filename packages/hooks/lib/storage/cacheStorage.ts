@@ -1,5 +1,5 @@
-import useStorageState from './useStorageState'
-import altStorageState from './altStorageState'
+// import useStorageState from './useStorageState'
+// import altStorageState from './altStorageState'
 
 class mapStorage {
   private storage = new Map()
@@ -49,12 +49,4 @@ class mapStorage {
 
 const cache = new mapStorage()
 
-// hooks场景
-export function usecacheStorageState<T>(key: string, defaultValue?: T | (() => T)) {
-  return useStorageState(cache, key, defaultValue)
-}
-
-// 非hooks场景
-export function altCacheStorageState<T>(key: string, defaultValue?: T | (() => T)) {
-  return altStorageState(cache, key, defaultValue)
-}
+export default cache

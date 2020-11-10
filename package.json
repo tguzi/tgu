@@ -4,7 +4,9 @@
   "es": "es/index.js",
   "scripts": {
     "docz": "docz dev --typescript",
+    "build:docz": "docz:build",
     "test": "jest --coverage --verbose -u",
+    "deploy": "lerna publish",
     "build": "lerna exec -- rollup --config ../../rollup.config.js",
     "start": "lerna exec -- rollup --config ../../rollup.config.js -w"
   },
